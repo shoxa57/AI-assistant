@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant Interface | Neural v2.0</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="chat-window">
+        <div class="chat-header">
+            <div class="header-left">
+                <span class="status-pulse"></span>
+                <h3>AI Assistant</h3>
+            </div>
+            <button id="clearChat" class="clear-btn" title="Clear Memory">
+                <i class="fas fa-trash-alt"></i>
+            </button>
+        </div>
+        
+        <div id="chatDisplay" class="chat-display">
+            <div class="ai-msg">Hello! I am Shokhrukhhbek. How can I help you with your project today?</div>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Enter command..." autocomplete="off">
+            <button id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
