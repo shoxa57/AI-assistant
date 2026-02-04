@@ -52,7 +52,7 @@ async function sendMessage() {
         document.getElementById(loadingId).innerHTML = marked.parse(aiResponse);
         
     } catch (error) {
-        document.getElementById(loadingId).innerText = "[ERROR]: Connection lost.";
+        document.getElementById(loadingId).innerText = "[ERROR]: Connection lost. Need to connect token.";
     }
     
     chatDisplay.scrollTop = chatDisplay.scrollHeight;
