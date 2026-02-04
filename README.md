@@ -1,23 +1,20 @@
-# 🤖 AI Assistant Portfolio Integration
+# 🤖 Neural AI Assistant v2.0
 
-A modern, responsive AI Assistant interface integrated into a personal portfolio website. This project uses the **Mistral-7B-Instruct** model via Hugging Face's Inference API to provide real-time intelligent responses.
+A high-end, responsive AI Assistant interface inspired by cyberpunk aesthetics. This standalone component features real-time communication with the **Mistral-7B** model and persistent memory.
 
-## ✨ Key Features
-- **Live AI Interaction:** Direct communication with Mistral AI for dynamic Q&A.
-- **Persistent Chat History:** Uses `localStorage` to keep your conversation active even after page refreshes.
-- **Markdown Rendering:** Supports rich text formatting (lists, code blocks, bold text) using `Marked.js`.
-- **Theme-Aware Design:** Fully compatible with Light and Dark modes.
-- **Interactive UI:** Smooth animations, a custom particle system for clicks, and a responsive "glassmorphism" chat window.
+![AI Assistant Preview](https://via.placeholder.com/800x450?text=AI+Assistant+Interface+Preview) ## 🔥 New in v2.0
+- **Persistent Memory:** Chat history is now saved to `localStorage`. Your conversations stay even after refreshing the page.
+- **Rounded UI:** Modern design with smooth `24px` corner radius for a premium look and feel.
+- **UX Improvements:** Send messages instantly by pressing the **Enter** key.
+- **Cyberpunk Glow:** Enhanced neon borders and backdrop-blur effects (Glassmorphism).
+
+## ✨ Core Features
+- **Mistral AI Integration:** Powered by Hugging Face Inference API.
+- **Markdown Support:** Renders bold text, lists, and code blocks beautifully.
+- **Theme-Aware:** Perfectly matches dark and light portfolio themes.
+- **One-Click Wipe:** Clear all saved chat history with the dedicated "Trash" button.
 
 ## 🛠 Tech Stack
-- **Core:** HTML5, CSS3 (Custom Properties, Flexbox, Grid)
-- **Logic:** Vanilla JavaScript (ES6+, Async/Await, Fetch API)
-- **AI Engine:** [Mistral-7B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
-- **Markdown Library:** [Marked.js](https://marked.js.org/)
-
-## 🚀 Getting Started
-
-### Prerequisites
-To use the AI features, you need a free API token from Hugging Face.
-1. Create an account at [huggingface.co](https://huggingface.co/).
-2. Go to **Settings -> Access Tokens** and create a new "Read" token.
+- **HTML5/CSS3:** Custom properties (variables) and advanced animations.
+- **Vanilla JavaScript:** ES6+, Fetch API, and LocalStorage.
+- **Libraries:** [Marked.js](https://marked.js.org/) for fast Markdown parsing.
